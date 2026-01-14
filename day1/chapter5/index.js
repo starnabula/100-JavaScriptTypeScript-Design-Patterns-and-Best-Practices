@@ -23,3 +23,7 @@ async function fetchData2() {
 // const data = await response.json();
 
 await fetchData2();
+
+const response = await fetch('https://jsonplaceholder.typicode.com/posts/3');
+const data = await response.json();
+console.log(data);
